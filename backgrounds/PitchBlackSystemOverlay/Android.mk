@@ -25,7 +25,10 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
-LOCAL_PACKAGE_NAME := PitchBlackSystemOverlay
+LOCAL_PRIVILEGED_MODULE := true
+
+LOCAL_CERTIFICATE := platform
 LOCAL_SDK_VERSION := current
+LOCAL_PACKAGE_NAME := PitchBlackSystemOverlay
 
 include $(BUILD_RRO_PACKAGE)

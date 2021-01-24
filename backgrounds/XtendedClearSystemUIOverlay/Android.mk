@@ -1,5 +1,5 @@
 #
-#  Copyright 2018, The Android Open Source Project
+#  Copyright 2019, The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_RRO_THEME := MaterialOceanSystemUI
+LOCAL_RRO_THEME := XtendedClearSystemUI
 
 LOCAL_PRODUCT_MODULE := true
 
@@ -25,10 +25,11 @@ LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
-LOCAL_PACKAGE_NAME := MaterialOceanSystemUIOverlay
-
 LOCAL_PRIVILEGED_MODULE := true
+
+LOCAL_PACKAGE_NAME := XtendedClearSystemUIOverlay
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SDK_VERSION := current
 include $(BUILD_RRO_PACKAGE)
+

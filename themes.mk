@@ -1,5 +1,7 @@
 # Themes
 PRODUCT_PACKAGES += \
+    XtendedClearSystemOverlay \
+    XtendedClearSystemUIOverlay \
     ClearSpringSystemOverlay \
     ClearSpringSystemUIOverlay \
     PitchBlackSystemOverlay \
@@ -14,21 +16,4 @@ PRODUCT_PACKAGES += \
     MaterialOceanSystemUIOverlay \
     DarkGreySystemOverlay \
     DarkGreySystemUIOverlay 
-	
-# Switch themes
-PRODUCT_PACKAGES += \
-    SwitchMD2 \
-    SwitchOnePlus \
-    SwitchStock \
-	Contained \
-    Retro \
-    Stockish \
-    Narrow
 
-# UI Styles
-PRODUCT_PACKAGES += \
-    UiStyleDefault \
-    UiStyleRoundLarge \
-    UiStyleRoundMedium \
-    UiStyleNoCornerRadius \
-    UiStyleRectangle \

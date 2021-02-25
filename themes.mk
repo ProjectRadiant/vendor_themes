@@ -15,5 +15,7 @@ PRODUCT_PACKAGES += \
     MaterialOceanSystemOverlay \
     MaterialOceanSystemUIOverlay \
     DarkGreySystemOverlay \
-    DarkGreySystemUIOverlay 
+    DarkGreySystemUIOverlay \
+    headerlargeOverlay \
+    headerxlargeOverlay
 

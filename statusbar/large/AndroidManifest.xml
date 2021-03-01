@@ -20,7 +20,7 @@
           android:versionCode="1"
           android:versionName="1.0">
     <overlay android:targetPackage="android"
-        android:category="android.theme.customization.statusbar_height"
+        android:category="android.theme.customization.header_height"
         android:priority="1"/>
 
     <application android:label="headerlarge" android:hasCode="false"/>

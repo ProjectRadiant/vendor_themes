@@ -13,34 +13,32 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License
-  NOTE: You might also want to edit: packages/SystemUI/res/values-night/colors.xml
+  NOTE: You might also want to edit: core/res/res/values-night/*.xml
   -->
 <resources>
 
-    <!-- The background color of a notification card. -->
-    <color name="notification_material_background_color">@*android:color/primary_dark_device_default_settings</color>
+    <!-- The color of the material notification background -->
+    <color name="notification_material_background_color">#ff000000</color>
 
-    <color name="theme_generic_semi_transparent_color">@*android:color/primary_dark_device_default_settings</color>
+    <!-- The color of the legacy notifications with customs backgrounds (gingerbread and lollipop.)
+    It's fine to override this color since at that point the shade was dark. -->
+    <color name="notification_legacy_background_color">#ff000000</color>
 
-    <color name="du_themes_qs_inactive_color">@*android:color/primary_dark_device_default_settings</color>
+    <!-- The color of the background in the top part of QSCustomizer -->
+    <color name="qs_customize_background">#ff000000</color>
 
-    <!-- Resolver -->
-    <color name="resolver_list_bg">@*android:color/primary_dark_device_default_settings</color>
-    <color name="chooser_service_row_background_color">@*android:color/primary_dark_device_default_settings</color>
+    <!-- The color of the background in the bottom part of QSCustomizer -->
+    <color name="qs_customize_decoration">#ff000000</color>
 
-    <!-- System Backgrounds -->	
-    <color name="material_grey_900">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_grey_850">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_grey_800">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_grey_600">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_blue_grey_700">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_blue_grey_800">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_blue_grey_900">@*android:color/primary_dark_device_default_settings</color>
-    <color name="material_blue_grey_950">@*android:color/primary_dark_device_default_settings</color>
+    <!-- The color of the material notification background when dimmed -->
+    <color name="notification_material_background_dimmed_color">#ff000000</color>
 
-    <!-- Toast text and bg colors -->
-    <color name="toast_bg_color">@*android:color/primary_dark_device_default_settings</color>
+    <!-- The color of the background in the grid of the Global Actions menu -->
+    <color name="global_actions_grid_background">#ff000000</color>
+
+    <color name="volume_background_tint">#ff000000</color>
+
+    <!-- OOS dismiss style color -->
+    <color name="recents_dismiss_all_background_color">#ff000000</color>
 
 </resources>
-
-
